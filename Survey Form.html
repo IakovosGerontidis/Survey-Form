@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" type="text/css" href="Survey Form.css">
+</head>
+<body>
+    <h1 id="title">Cars</h1>    
+<p id= "discripion">Discribe Your First Car</p>
+<form id="survey-form">
+<label id="name-label">Name</label>
+    <input type="text" id="name"placeholder="John" required></input>
+    <br> <br> <br>
+    <label id="email-label">Email</label>
+    <input type="email" id="email" placeholder="example@email.com" required></input>  
+    <br> <br> <br>
+    <label id="number-label">Age</label>
+    <input type="number" id="number"placeholder="25" min="1"max="100"></input> 
+    <br> <br> <br> 
+    <label for="cars">Choose a car:</label>
+<select name="cars" id="dropdown">
+  <option value="volvo">Volvo</option>
+  <option value="toyota">Toyota</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+  <option value="nissan">Nissan</option>
+  <option value="scoda">Scoda</option>
+  <option value="opel">Opel</option>
+  <option value="ferrari">Ferrari</option>
+  <option value="porche">Porche</option>
+  <option value="renaut">Renaut</option>
+  <option value="other">Other</option>
+</select>
+    <Br> <Br>
+<label for="color">Choose a color</label> <br>
+<input type="radio" name="color" value="red">Red <br>
+<input type="radio" name="color" value="green">Green <br>
+<input type="radio" name="color" value="blue">Blue <br>
+<input type="radio" name="color" value="yellow">Yellow <br>
+<input type="radio" name="color" value="other">Other <br>
+<br> <br> <br>
+<label for="features">Choose a feature</label> <br>
+<input type="checkbox" value="radio/cd" name="radio/cd">Radio/CD</input> <br>
+<input type="checkbox" value="aux" name="aux">AUX</input> <br>
+<input type="checkbox" value="bluetooth" name="bluetooth">Bluetooth</input> <br>
+<input type="checkbox" value="park-assist" name="park-assist">Park Assist</input> <br>
+<input type="checkbox" value="brake-assist" name="brake-assist">Brake Assist</input> <br>
+<input type="checkbox" value="other" name="other">Other</input> <br>
+<br>  
+<textarea></textarea>    
+<button type="submit" id="submit">Submit</button>   
+</form>
+</body>
+</html>
